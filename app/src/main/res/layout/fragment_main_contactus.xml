@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.vitesse.group.vghomedecor.ui.fragments.HomeFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/user"
+        android:layout_margin="16dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:id="@+id/mobile_layout">
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:id="@+id/mobile_icon"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/call_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@+id/mobile_icon"
+                android:textSize="18sp"
+                android:text=": 12334567890"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/light_gray"
+                android:layout_below="@+id/mobile_icon"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mobile_layout"
+            android:layout_marginTop="@dimen/dp_16"
+            android:id="@+id/email_layout">
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:id="@+id/email_icon"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/email"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@+id/email_icon"
+                android:textSize="18sp"
+                android:text="harsh@gmail.com"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/light_gray"
+                android:layout_below="@+id/email_icon"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_layout"
+            android:layout_marginTop="@dimen/dp_16"
+            android:id="@+id/address_layout">
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:id="@+id/change_pwd_icon"
+                android:layout_marginEnd="16dp"
+                android:tint="@color/black"
+                android:src="@drawable/address_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@+id/change_pwd_icon"
+                android:textSize="18sp"
+                android:text="Cyberpark,ezone,2nd floor"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/light_gray"
+                android:layout_below="@+id/change_pwd_icon"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address_layout"
+            android:layout_marginTop="@dimen/dp_16"
+            android:id="@+id/facebook_layout">
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:id="@+id/facebook_icon"
+                android:layout_marginEnd="16dp"
+                android:tint="@color/black"
+                android:src="@drawable/facebook"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@+id/facebook_icon"
+                android:textSize="18sp"
+                android:text="vdesign"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/light_gray"
+                android:layout_below="@+id/facebook_icon"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/facebook_layout"
+            android:layout_marginTop="@dimen/dp_16"
+            android:id="@+id/instagram_layout">
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24"
+                android:id="@+id/instagram_icon"
+                android:layout_marginEnd="16dp"
+                android:tint="@color/black"
+                android:src="@drawable/instagram_icon"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@+id/instagram_icon"
+                android:textSize="18sp"
+                android:text="vdesign"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="@dimen/dp_16"
+                android:background="@color/light_gray"
+                android:layout_below="@+id/instagram_icon"/>
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_8"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:background="@drawable/button_round_with_greenbg">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="@dimen/margin_150"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_16"
+            android:id="@+id/logo"
+            android:src="@drawable/app_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/logo"
+        android:text="@string/contact_dummy"
+        android:textSize="@dimen/font_24sp"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/font_35sp"
+        android:textColor="@color/black"
+        android:text="Lets get to gether"
+        android:layout_marginBottom="@dimen/dp_36"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<resources>
+
+  <!-- Base application theme. -->
+ <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+  <!-- <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+      &lt;!&ndash; Customize your theme here. &ndash;&gt;
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+  </style>-->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:textColorHint">@color/colorAccent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="windowNoTitle">true</item>
+    <item name="actionMenuTextColor">@color/colorAccent</item>
+    <item name="android:windowLayoutInDisplayCutoutMode">default</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+  <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:windowBackground">@drawable/popup_background</item>
+  </style>
+  <style name="CustomActivityThemeNoActionBar" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <style name="alertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <item name="android:fitsSystemWindows">false</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:background">@color/white</item>
+    <item name="background">@color/white</item>
+  </style>
+
+  <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:textColorHint">@color/colorAccent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="actionMenuTextColor">@color/colorAccent</item>
+    <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+   <!-- <item name="android:textColor">@color/colorText</item>
+    <item name="android:textColorHint">@color/colorText</item>
+    <item name="colorControlNormal">@color/colorText</item>
+    <item name="colorControlActivated">@color/colorText</item>-->
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <color name="white">#ffffff</color>
+  <color name="black">#000000</color>
+
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <!--designs for login and register-->
+  <style name="parent">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
+
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+    <item name="android:textSize">@dimen/font_24sp</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
+
+</resources>

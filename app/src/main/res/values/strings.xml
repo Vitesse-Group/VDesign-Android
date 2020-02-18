@@ -1,0 +1,75 @@
+<resources>
+  <string name="app_name">V Design</string>
+  <string name="title_font_size">20dp</string>
+  <string name="app_logo_description">V Design</string>
+
+  <string name="main_page_subscribe_btn">Continue</string>
+
+  <string name="select_image_title">Select(Take) Image</string>
+  <string name="load_image_page_select_image_from_gallery_btn">Upload</string>
+  <string name="load_image_page_capture_new_image_btn">New Image</string>
+  <string name="btn_continue_to_next_page">Continue</string>
+  <string name="image_description">Loaded Image</string>
+
+
+  <string name="altered_image_description">Transferred Image</string>
+  <string name="btn_apply_color">Apply Color</string>
+  <string name="btn_apply_contrast">Contrast</string>
+
+
+  <string name="sign_in_title">Authenticate</string>
+  <string name="sign_in_email_hint">Enter Email Id</string>
+  <string name="sign_in_mobile_hint">Enter Mobile No</string>
+  <string name="sign_in_password_hint">Enter Password</string>
+  <string name="sign_in_send_otp_to">Send OTP to</string>
+  <string name="sign_in_otp_to_email">Email</string>
+  <string name="sign_in_otp_to_mobile">Mobile</string>
+  <string name="sign_in_enter_otp">Enter OTP</string>
+  <string name="sign_in_send_otp_button">Request OTP</string>
+  <string name="sign_in_verify_otp_button">Verify OTP</string>
+  <string name="sign_in_button">Login</string>
+
+  <string name="dimensions_title">Room Dimensions</string>
+  <string name="dimensions_length">Length</string>
+  <string name="dimensions_width">Width</string>
+  <string name="dimensions_height">Height</string>
+  <string name="dimensions_continue">Continue</string>
+
+  <string name="ren_save">Save</string>
+
+
+  <string name="empty"></string>
+  <string name="get_started_btn">Get Started</string>
+  <string name="progress_msg">Processing.....</string>
+  <string name="saveimage_msg">Saving Image....</string>
+  <string name="home_decor_quote">Home is where you make it yours.</string>
+  <string name="living_room_quote">it\'s the heart of my home where I get to chill and spend time with family and friends.</string>
+  <string name="bedroom_quote">When you go all over the world for work, your dream vacation is your bedroom.</string>
+  <string name="kitchen_room_quote">I always had a fantasy of being a chef, because I like kitchen life.</string>
+  <string name="living_area">Living Room</string>
+  <string name="bedroom_area">Bed Room</string>
+  <string name="kitchen_area">Kitchen Room</string>
+  <string name="dont_have_account">Don\'t have account sign up here.</string>
+  <string name="sign_up_title">Registration</string>
+  <string name="sign_up_button">Register</string>
+  <string name="already_have_account">Already have account login here.</string>
+  <string name="sign_in_name_hint">Enter Name</string>
+
+  <string name="title_home">Home</string>
+  <string name="title_design">Design</string>
+  <string name="title_vr">VR</string>
+  <string name="title_account">Account</string>
+  <string name="title_contact">ContactUs</string>
+  <string name="contact_dummy">\n
+ Address \n
+ Lorem Ipsum Sit Amet \n
+ Pin :12345 \n
+ place \n
+ Telephone : 1-800-123-4567 \n
+ Email : info@dummy.com \n
+  </string>
+  <string name="spinner_title">Select area</string>
+    <string name="save_image_title">Let\'s see saved images.</string>
+  <string name="save_image_empty_title">Let\'s save the images and see here.</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:background="#dedede"
+  tools:context="com.vitesse.group.vghomedecor.ui.fragments.LivingAreaFragment">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+  <!-- TODO: Update blank fragment layout -->
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:text="LIving Area"
+      android:visibility="gone"
+    android:textSize="30sp" />
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="400dp"
+      android:layout_centerHorizontal="true"
+      android:scaleType="fitXY"
+      android:src="@drawable/hall_3_1"
+      android:id="@+id/living_image"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:id="@+id/undo_redo_layout"
+      android:layout_marginStart="@dimen/dp_24"
+      android:layout_marginEnd="@dimen/dp_24"
+      android:layout_below="@+id/living_image"
+      android:layout_marginTop="@dimen/dp_8"
+      android:layout_height="100dp"
+      android:gravity="center_horizontal"
+      android:layout_centerHorizontal="true"
+      android:weightSum="4"
+      android:orientation="horizontal"
+      android:background="@drawable/button_round_with_blue_stroke">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textures"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:tint="@android:color/black"
+        android:layout_gravity="center"
+        android:src="@drawable/style_icon"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/undo"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/undo"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/redo"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/redo"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/save"/>
+  </LinearLayout>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/undo_redo_layout"
+      android:layout_marginStart="@dimen/dp_10"
+      android:layout_marginEnd="@dimen/dp_10"
+      android:layout_marginTop="@dimen/dp_8"
+      android:id="@+id/texture_recycler"/>
+  </RelativeLayout>
+  </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Decoration Style"
+        android:layout_marginTop="@dimen/margin_18"
+        android:background="@drawable/rectangle"
+        android:layout_marginStart="@dimen/dp_24"
+        android:layout_marginEnd="@dimen/dp_24"
+        android:padding="@dimen/dp_4"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/font_24sp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mStylesRecyerID"
+        android:layout_marginTop="@dimen/dp_16"
+        android:layout_marginStart="@dimen/dp_24"
+        android:layout_marginEnd="@dimen/dp_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_24"
+        android:layout_marginEnd="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_24"
+        android:layout_marginBottom="@dimen/dp_24"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/dialog_buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/button_round_with_blue_stroke"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:text="Ok"
+        android:textColor="@color/colorPrimaryDark" />
+    <Button
+        android:id="@+id/dialog_buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_weight="1"
+        android:background="@drawable/button_round_with_blue_stroke"
+        android:text="Cancel"
+        android:textColor="@color/colorPrimaryDark" />
+</LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

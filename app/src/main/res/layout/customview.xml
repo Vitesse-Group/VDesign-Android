@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select the area which you want to decorate."
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="@dimen/dp_24"
+            android:layout_marginEnd="@dimen/dp_24"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioButton_living"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="@android:color/black" android:layout_marginTop="@dimen/dp_8"
+                android:text="Living Area"
+                android:textSize="@dimen/font_18sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/radioButton_bedroom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="Bedroom Area"
+                android:textSize="@dimen/font_18sp"
+                android:textStyle="bold" />
+            <RadioButton
+                android:id="@+id/radioButton_kitchen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="Kitchen Area"
+                android:textSize="@dimen/font_18sp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <!-- Spinner Element -->
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            />
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dp_24"
+            android:background="@drawable/button_round_with_blue_stroke"
+            android:text="Ok"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+</LinearLayout>

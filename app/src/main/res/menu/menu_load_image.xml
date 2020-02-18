@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/menu_load_from_gallery"
+    android:enabled="true"
+    android:icon="@drawable/ic_image_primary_24dp"
+    android:title="@string/load_image_page_select_image_from_gallery_btn"
+    app:showAsAction="ifRoom" />
+  <item
+    android:id="@+id/menu_load_from_camera"
+    android:enabled="true"
+    android:icon="@drawable/ic_camera_alt_primary_24dp"
+    android:title="@string/load_image_page_capture_new_image_btn"
+    app:showAsAction="ifRoom" />
+  <item
+    android:id="@+id/menu_load_continue"
+    android:enabled="true"
+    android:icon="@drawable/ic_arrow_forward_white_24dp"
+    android:title="@string/btn_continue_to_next_page"
+    app:showAsAction="ifRoom" />
+</menu>
